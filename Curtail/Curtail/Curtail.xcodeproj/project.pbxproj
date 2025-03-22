@@ -6,68 +6,63 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		F38968692D8E4D100083832A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38968682D8E4CE80083832A /* WebView.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		F30AC24E2D8E33AB00C58D27 /* PBXContainerItemProxy */ = {
+		F38968892D8E6BC70083832A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F30AC2352D8E33A500C58D27 /* Project object */;
+			containerPortal = F38968702D8E6BC10083832A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F30AC23C2D8E33A600C58D27;
-			remoteInfo = InstaRedirectApp;
+			remoteGlobalIDString = F38968772D8E6BC10083832A;
+			remoteInfo = Curtail;
 		};
-		F30AC2582D8E33AB00C58D27 /* PBXContainerItemProxy */ = {
+		F38968932D8E6BC70083832A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F30AC2352D8E33A500C58D27 /* Project object */;
+			containerPortal = F38968702D8E6BC10083832A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F30AC23C2D8E33A600C58D27;
-			remoteInfo = InstaRedirectApp;
+			remoteGlobalIDString = F38968772D8E6BC10083832A;
+			remoteInfo = Curtail;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F30AC23D2D8E33A600C58D27 /* InstaRedirectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaRedirectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F30AC24D2D8E33AB00C58D27 /* InstaRedirectAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaRedirectAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F30AC2572D8E33AB00C58D27 /* InstaRedirectAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaRedirectAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F38968682D8E4CE80083832A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F38968782D8E6BC10083832A /* Curtail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Curtail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38968882D8E6BC70083832A /* CurtailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurtailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38968922D8E6BC70083832A /* CurtailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurtailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F30AC23F2D8E33A600C58D27 /* InstaRedirectApp */ = {
+		F389687A2D8E6BC10083832A /* Curtail */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = InstaRedirectApp;
+			path = Curtail;
 			sourceTree = "<group>";
 		};
-		F30AC2502D8E33AB00C58D27 /* InstaRedirectAppTests */ = {
+		F389688B2D8E6BC70083832A /* CurtailTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = InstaRedirectAppTests;
+			path = CurtailTests;
 			sourceTree = "<group>";
 		};
-		F30AC25A2D8E33AB00C58D27 /* InstaRedirectAppUITests */ = {
+		F38968952D8E6BC70083832A /* CurtailUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = InstaRedirectAppUITests;
+			path = CurtailUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F30AC23A2D8E33A600C58D27 /* Frameworks */ = {
+		F38968752D8E6BC10083832A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F30AC24A2D8E33AB00C58D27 /* Frameworks */ = {
+		F38968852D8E6BC70083832A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F30AC2542D8E33AB00C58D27 /* Frameworks */ = {
+		F389688F2D8E6BC70083832A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,23 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F30AC2342D8E33A500C58D27 = {
+		F389686F2D8E6BC10083832A = {
 			isa = PBXGroup;
 			children = (
-				F38968682D8E4CE80083832A /* WebView.swift */,
-				F30AC23F2D8E33A600C58D27 /* InstaRedirectApp */,
-				F30AC2502D8E33AB00C58D27 /* InstaRedirectAppTests */,
-				F30AC25A2D8E33AB00C58D27 /* InstaRedirectAppUITests */,
-				F30AC23E2D8E33A600C58D27 /* Products */,
+				F389687A2D8E6BC10083832A /* Curtail */,
+				F389688B2D8E6BC70083832A /* CurtailTests */,
+				F38968952D8E6BC70083832A /* CurtailUITests */,
+				F38968792D8E6BC10083832A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F30AC23E2D8E33A600C58D27 /* Products */ = {
+		F38968792D8E6BC10083832A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F30AC23D2D8E33A600C58D27 /* InstaRedirectApp.app */,
-				F30AC24D2D8E33AB00C58D27 /* InstaRedirectAppTests.xctest */,
-				F30AC2572D8E33AB00C58D27 /* InstaRedirectAppUITests.xctest */,
+				F38968782D8E6BC10083832A /* Curtail.app */,
+				F38968882D8E6BC70083832A /* CurtailTests.xctest */,
+				F38968922D8E6BC70083832A /* CurtailUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F30AC23C2D8E33A600C58D27 /* InstaRedirectApp */ = {
+		F38968772D8E6BC10083832A /* Curtail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F30AC2612D8E33AB00C58D27 /* Build configuration list for PBXNativeTarget "InstaRedirectApp" */;
+			buildConfigurationList = F389689C2D8E6BC70083832A /* Build configuration list for PBXNativeTarget "Curtail" */;
 			buildPhases = (
-				F30AC2392D8E33A600C58D27 /* Sources */,
-				F30AC23A2D8E33A600C58D27 /* Frameworks */,
-				F30AC23B2D8E33A600C58D27 /* Resources */,
+				F38968742D8E6BC10083832A /* Sources */,
+				F38968752D8E6BC10083832A /* Frameworks */,
+				F38968762D8E6BC10083832A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F30AC23F2D8E33A600C58D27 /* InstaRedirectApp */,
+				F389687A2D8E6BC10083832A /* Curtail */,
 			);
-			name = InstaRedirectApp;
+			name = Curtail;
 			packageProductDependencies = (
 			);
-			productName = InstaRedirectApp;
-			productReference = F30AC23D2D8E33A600C58D27 /* InstaRedirectApp.app */;
+			productName = Curtail;
+			productReference = F38968782D8E6BC10083832A /* Curtail.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F30AC24C2D8E33AB00C58D27 /* InstaRedirectAppTests */ = {
+		F38968872D8E6BC70083832A /* CurtailTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F30AC2642D8E33AB00C58D27 /* Build configuration list for PBXNativeTarget "InstaRedirectAppTests" */;
+			buildConfigurationList = F389689F2D8E6BC70083832A /* Build configuration list for PBXNativeTarget "CurtailTests" */;
 			buildPhases = (
-				F30AC2492D8E33AB00C58D27 /* Sources */,
-				F30AC24A2D8E33AB00C58D27 /* Frameworks */,
-				F30AC24B2D8E33AB00C58D27 /* Resources */,
+				F38968842D8E6BC70083832A /* Sources */,
+				F38968852D8E6BC70083832A /* Frameworks */,
+				F38968862D8E6BC70083832A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F30AC24F2D8E33AB00C58D27 /* PBXTargetDependency */,
+				F389688A2D8E6BC70083832A /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F30AC2502D8E33AB00C58D27 /* InstaRedirectAppTests */,
+				F389688B2D8E6BC70083832A /* CurtailTests */,
 			);
-			name = InstaRedirectAppTests;
+			name = CurtailTests;
 			packageProductDependencies = (
 			);
-			productName = InstaRedirectAppTests;
-			productReference = F30AC24D2D8E33AB00C58D27 /* InstaRedirectAppTests.xctest */;
+			productName = CurtailTests;
+			productReference = F38968882D8E6BC70083832A /* CurtailTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F30AC2562D8E33AB00C58D27 /* InstaRedirectAppUITests */ = {
+		F38968912D8E6BC70083832A /* CurtailUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F30AC2672D8E33AB00C58D27 /* Build configuration list for PBXNativeTarget "InstaRedirectAppUITests" */;
+			buildConfigurationList = F38968A22D8E6BC70083832A /* Build configuration list for PBXNativeTarget "CurtailUITests" */;
 			buildPhases = (
-				F30AC2532D8E33AB00C58D27 /* Sources */,
-				F30AC2542D8E33AB00C58D27 /* Frameworks */,
-				F30AC2552D8E33AB00C58D27 /* Resources */,
+				F389688E2D8E6BC70083832A /* Sources */,
+				F389688F2D8E6BC70083832A /* Frameworks */,
+				F38968902D8E6BC70083832A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F30AC2592D8E33AB00C58D27 /* PBXTargetDependency */,
+				F38968942D8E6BC70083832A /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F30AC25A2D8E33AB00C58D27 /* InstaRedirectAppUITests */,
+				F38968952D8E6BC70083832A /* CurtailUITests */,
 			);
-			name = InstaRedirectAppUITests;
+			name = CurtailUITests;
 			packageProductDependencies = (
 			);
-			productName = InstaRedirectAppUITests;
-			productReference = F30AC2572D8E33AB00C58D27 /* InstaRedirectAppUITests.xctest */;
+			productName = CurtailUITests;
+			productReference = F38968922D8E6BC70083832A /* CurtailUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F30AC2352D8E33A500C58D27 /* Project object */ = {
+		F38968702D8E6BC10083832A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					F30AC23C2D8E33A600C58D27 = {
+					F38968772D8E6BC10083832A = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					F30AC24C2D8E33AB00C58D27 = {
+					F38968872D8E6BC70083832A = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = F30AC23C2D8E33A600C58D27;
+						TestTargetID = F38968772D8E6BC10083832A;
 					};
-					F30AC2562D8E33AB00C58D27 = {
+					F38968912D8E6BC70083832A = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = F30AC23C2D8E33A600C58D27;
+						TestTargetID = F38968772D8E6BC10083832A;
 					};
 				};
 			};
-			buildConfigurationList = F30AC2382D8E33A500C58D27 /* Build configuration list for PBXProject "InstaRedirectApp" */;
+			buildConfigurationList = F38968732D8E6BC10083832A /* Build configuration list for PBXProject "Curtail" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F30AC2342D8E33A500C58D27;
+			mainGroup = F389686F2D8E6BC10083832A;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F30AC23E2D8E33A600C58D27 /* Products */;
+			productRefGroup = F38968792D8E6BC10083832A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F30AC23C2D8E33A600C58D27 /* InstaRedirectApp */,
-				F30AC24C2D8E33AB00C58D27 /* InstaRedirectAppTests */,
-				F30AC2562D8E33AB00C58D27 /* InstaRedirectAppUITests */,
+				F38968772D8E6BC10083832A /* Curtail */,
+				F38968872D8E6BC70083832A /* CurtailTests */,
+				F38968912D8E6BC70083832A /* CurtailUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F30AC23B2D8E33A600C58D27 /* Resources */ = {
+		F38968762D8E6BC10083832A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F30AC24B2D8E33AB00C58D27 /* Resources */ = {
+		F38968862D8E6BC70083832A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F30AC2552D8E33AB00C58D27 /* Resources */ = {
+		F38968902D8E6BC70083832A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -238,22 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F30AC2392D8E33A600C58D27 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F38968692D8E4D100083832A /* WebView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F30AC2492D8E33AB00C58D27 /* Sources */ = {
+		F38968742D8E6BC10083832A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F30AC2532D8E33AB00C58D27 /* Sources */ = {
+		F38968842D8E6BC70083832A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F389688E2D8E6BC70083832A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F30AC24F2D8E33AB00C58D27 /* PBXTargetDependency */ = {
+		F389688A2D8E6BC70083832A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F30AC23C2D8E33A600C58D27 /* InstaRedirectApp */;
-			targetProxy = F30AC24E2D8E33AB00C58D27 /* PBXContainerItemProxy */;
+			target = F38968772D8E6BC10083832A /* Curtail */;
+			targetProxy = F38968892D8E6BC70083832A /* PBXContainerItemProxy */;
 		};
-		F30AC2592D8E33AB00C58D27 /* PBXTargetDependency */ = {
+		F38968942D8E6BC70083832A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F30AC23C2D8E33A600C58D27 /* InstaRedirectApp */;
-			targetProxy = F30AC2582D8E33AB00C58D27 /* PBXContainerItemProxy */;
+			target = F38968772D8E6BC10083832A /* Curtail */;
+			targetProxy = F38968932D8E6BC70083832A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F30AC25F2D8E33AB00C58D27 /* Debug */ = {
+		F389689A2D8E6BC70083832A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		F30AC2602D8E33AB00C58D27 /* Release */ = {
+		F389689B2D8E6BC70083832A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,14 +388,14 @@
 			};
 			name = Release;
 		};
-		F30AC2622D8E33AB00C58D27 /* Debug */ = {
+		F389689D2D8E6BC70083832A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"InstaRedirectApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Curtail/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -415,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.InstaRedirectApp;
+				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.Curtail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -423,14 +416,14 @@
 			};
 			name = Debug;
 		};
-		F30AC2632D8E33AB00C58D27 /* Release */ = {
+		F389689E2D8E6BC70083832A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"InstaRedirectApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Curtail/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -443,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.InstaRedirectApp;
+				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.Curtail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -451,7 +444,7 @@
 			};
 			name = Release;
 		};
-		F30AC2652D8E33AB00C58D27 /* Debug */ = {
+		F38968A02D8E6BC70083832A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,16 +453,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.InstaRedirectAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.CurtailTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaRedirectApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstaRedirectApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Curtail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Curtail";
 			};
 			name = Debug;
 		};
-		F30AC2662D8E33AB00C58D27 /* Release */ = {
+		F38968A12D8E6BC70083832A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,87 +471,87 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.InstaRedirectAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.CurtailTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaRedirectApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstaRedirectApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Curtail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Curtail";
 			};
 			name = Release;
 		};
-		F30AC2682D8E33AB00C58D27 /* Debug */ = {
+		F38968A32D8E6BC70083832A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.InstaRedirectAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.CurtailUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = InstaRedirectApp;
+				TEST_TARGET_NAME = Curtail;
 			};
 			name = Debug;
 		};
-		F30AC2692D8E33AB00C58D27 /* Release */ = {
+		F38968A42D8E6BC70083832A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.InstaRedirectAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = abstractionteam10.CurtailUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = InstaRedirectApp;
+				TEST_TARGET_NAME = Curtail;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F30AC2382D8E33A500C58D27 /* Build configuration list for PBXProject "InstaRedirectApp" */ = {
+		F38968732D8E6BC10083832A /* Build configuration list for PBXProject "Curtail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F30AC25F2D8E33AB00C58D27 /* Debug */,
-				F30AC2602D8E33AB00C58D27 /* Release */,
+				F389689A2D8E6BC70083832A /* Debug */,
+				F389689B2D8E6BC70083832A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F30AC2612D8E33AB00C58D27 /* Build configuration list for PBXNativeTarget "InstaRedirectApp" */ = {
+		F389689C2D8E6BC70083832A /* Build configuration list for PBXNativeTarget "Curtail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F30AC2622D8E33AB00C58D27 /* Debug */,
-				F30AC2632D8E33AB00C58D27 /* Release */,
+				F389689D2D8E6BC70083832A /* Debug */,
+				F389689E2D8E6BC70083832A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F30AC2642D8E33AB00C58D27 /* Build configuration list for PBXNativeTarget "InstaRedirectAppTests" */ = {
+		F389689F2D8E6BC70083832A /* Build configuration list for PBXNativeTarget "CurtailTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F30AC2652D8E33AB00C58D27 /* Debug */,
-				F30AC2662D8E33AB00C58D27 /* Release */,
+				F38968A02D8E6BC70083832A /* Debug */,
+				F38968A12D8E6BC70083832A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F30AC2672D8E33AB00C58D27 /* Build configuration list for PBXNativeTarget "InstaRedirectAppUITests" */ = {
+		F38968A22D8E6BC70083832A /* Build configuration list for PBXNativeTarget "CurtailUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F30AC2682D8E33AB00C58D27 /* Debug */,
-				F30AC2692D8E33AB00C58D27 /* Release */,
+				F38968A32D8E6BC70083832A /* Debug */,
+				F38968A42D8E6BC70083832A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F30AC2352D8E33A500C58D27 /* Project object */;
+	rootObject = F38968702D8E6BC10083832A /* Project object */;
 }

@@ -8,16 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var preferredPage: String = "reels"
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Picker("Choose Default Page", selection: $preferredPage) {
+                Text("Messages").tag("messages")
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            .padding()
+
+            let startURL = URL(string: "https://www.instagram.com/")!
+            let request = URLRequest(url: startURL)
+            
+            WebViewWithRedirect(request: request, preferredPage: preferredPage)
+                .edgesIgnoringSafeArea(.all)
         }
-        .padding()
     }
 }
+
 
 #Preview {
     ContentView()
